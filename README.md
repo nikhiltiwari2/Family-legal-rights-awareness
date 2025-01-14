@@ -25,13 +25,8 @@ Legal Protections: Provides information on divorce, child custody, and property 
 Empowerment: Offers tools to empower families with knowledge of their rights.
 Legal Support: Lists contact information for legal support and law firms.
 How to Use
-1. Clone the Repository
-Clone the repository to your local machine:
 
-bash
-Copy code
-git clone https://github.com/your-username/family-legal-rights-awareness.git
-2. Install Dependencies
+1. Install Dependencies
 Navigate to the project directory:
 
 bash
@@ -49,7 +44,7 @@ bash
 Copy code
 cd frontend
 npm install
-3. Start the Backend Server
+2. Start the Backend Server
 In the backend directory, start the server:
 
 bash
@@ -57,7 +52,7 @@ Copy code
 npm start
 The backend server will start at http://localhost:5000.
 
-4. Start the Frontend React Application
+3. Start the Frontend React Application
 In the frontend directory, start the React app:
 
 bash
@@ -89,25 +84,4 @@ family-legal-rights-awareness/
 ├── README.md               # Project documentation
 └── package.json            # Project dependencies and scripts
 Contributing
-Contributions to the project are welcome! You can contribute in the following ways:
-
-Reporting Bugs: If you find any bugs, please report them on the GitHub issues page.
-Feature Requests: If you'd like to see additional features, submit a feature request.
-Pull Requests: Fork the repository and submit a pull request with your changes.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Example of Usage:
-Legal Awareness: Learn about divorce, child custody, and property rights.
-Legal Consultation: Submit a request for a consultation on family matters.
-Legal Support: Access contact information for law firms and legal aid societies.
-This README file template provides clear instructions on how to set up and run your project, explains the features and technologies, and guides anyone who wants to contribute. You can modify it according to your specific requirements.
-
-Once you have finalized your README, commit the file and push it to GitHub:
-
-bash
-Copy code
-git add README.md
-git commit -m "Added README file"
-git push
-This will ensure that your GitHub repository is well-documented and easy for others to understand and use.
+Contributions to the project are welcome! 
