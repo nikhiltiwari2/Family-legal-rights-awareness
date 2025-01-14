@@ -1,0 +1,21 @@
+// frontend/src/components/Empowerment.js
+import React from 'react';
+
+const Empowerment = () => {
+  return (
+    <div>
+      <h2>Empowerment: Stand Up for Your Rights</h2>
+      <p>
+        Empower yourself with knowledge and take action! Here we provide you with resources
+        that help you assert your legal rights.
+      </p>
+      <ul>
+        <li>Know your legal rights in family matters.</li>
+        <li>Understand how to protect yourself and your family.</li>
+        <li>Access legal consultations to take action when needed.</li>
+      </ul>
+    </div>
+  );
+};
+
+export default Empowerment;

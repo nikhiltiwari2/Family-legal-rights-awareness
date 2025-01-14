@@ -1,0 +1,19 @@
+// frontend/src/components/LegalSupport.js
+import React from 'react';
+
+const LegalSupport = () => {
+  return (
+    <div>
+      <h2>Legal Support</h2>
+      <p>If you need direct legal support, please contact one of our affiliated law firms:</p>
+      <ul>
+        <li>ABC Law Firm - Call: (555) 123-4567</li>
+        <li>XYZ Legal Group - Call: (555) 987-6543</li>
+        <li>Legal Aid Society - Free Consultation: (555) 111-2222</li>
+      </ul>
+      <p>You can also request a free consultation by filling out the form on the Consultation page.</p>
+    </div>
+  );
+};
+
+export default LegalSupport;

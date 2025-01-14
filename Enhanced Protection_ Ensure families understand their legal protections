@@ -1,0 +1,15 @@
+// frontend/src/components/Protections.js
+import React from 'react';
+
+const Protections = () => {
+  return (
+    <div>
+      <h2>Legal Protections</h2>
+      <p><strong>Divorce Protection:</strong> Information on legal rights during divorce.</p>
+      <p><strong>Child Custody:</strong> Details about family laws regarding child custody.</p>
+      <p><strong>Property Rights:</strong> Rights for family property distribution and inheritance.</p>
+    </div>
+  );
+};
+
+export default Protections;

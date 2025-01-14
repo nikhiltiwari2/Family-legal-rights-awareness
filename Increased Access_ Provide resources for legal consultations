@@ -1,0 +1,31 @@
+// frontend/src/components/Consultations.js
+import React, { useState } from 'react';
+
+const Consultations = () => {
+  const [message, setMessage] = useState('');
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    alert("Your consultation request has been submitted!");
+    setMessage('');
+  };
+
+  return (
+    <div>
+      <h2>Request a Legal Consultation</h2>
+      <form onSubmit={handleSubmit}>
+        <textarea
+          value={message}
+          onChange={(e) => setMessage(e.target.value)}
+          placeholder="Describe your issue"
+          rows="4"
+          cols="50"
+        ></textarea>
+        <br />
+        <button type="submit">Submit Request</button>
+      </form>
+    </div>
+  );
+};
+
+export default Consultations;
